@@ -3,9 +3,11 @@ struct student
 {
     int yuwen;
     int shuxue;
-    int yingwu;
+    int yingyu;
     char name[100];
 };
+struct student arr[1000];
+int index = 0;
 
 
 int main(){
@@ -30,7 +32,24 @@ int main(){
         scanf("%d",&code);
         
         if(code == 1){
-           
+           printf("qingshuruxueshengxingming:\n");
+           scanf("%s",arr[index].name);
+
+           printf("qingshuruxueshengyuwenchengji\n");
+           scanf("%d",&(arr[index].yuwen));
+
+           printf("qingshuruxueshengshuxuechengji\n");
+           scanf("%d",&(arr[index].shuxue));
+
+           printf("qingshuruxueshengyingyuchengji\n");
+           scanf("%d",&(arr[index].yingyu));
+
+           index++;
+
+           printf("tianjichenggong,dianjihuichejixu\n");
+           char x;
+           scanf("%c",&x);
+           scanf("%c",&x);
         }
         if(code == 2){
             
