@@ -52,7 +52,20 @@ int main(){
            scanf("%c",&x);
         }
         if(code == 2){
-            
+            if(index > 0)
+            {
+                index--;
+                printf("shanchuchenggong,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
+            else{
+                printf("wuxueshengxinxi,shanchuxhibai,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            } 
         }
         if(code == 3){
             printf("suoyouxueshengchengjiruxia:\n");
